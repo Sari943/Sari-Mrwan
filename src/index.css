@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, "Inter", "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-mauve-50: #fdfafc;
+  --color-mauve-100: #f8f4f9;
+  --color-mauve-200: #f0e6ef;
+  --color-mauve-300: #e6dae8;
+  --color-mauve-400: #d0c0d2;
+  --color-mauve-500: #a084a5;
+  --color-mauve-600: #6f42c1;
+  --color-mauve-700: #5a359e;
+  --color-mauve-800: #4a3b4e;
+  --color-mauve-900: #332936;
+  --color-mauve-950: #1d171f;
+}
+
+body {
+  @apply bg-mauve-50 text-mauve-800 antialiased m-0 p-0;
+}
